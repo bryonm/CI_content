@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            font-family: "Lato", sans-serif;
+        }
+
+        /* --- PUT THIS CODE ON ALL PAGES --- */
+
+        .sidenav {
+            height: 100%;
+            width: 0;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: #841213;
+            overflow-x: hidden;
+            transition: 0.5s;
+            padding-top: 60px;
+        }
+
+        .sidenav a {
+            padding: 5px 8px 5px 25px;
+            text-decoration: none;
+            font-size: 20px;
+            color: #818181;
+            display: block;
+            transition: 0.3s;
+        }
+
+        .sidenav a:hover {
+            color: #f1f1f1;
+        }
+
+        .sidenav .closebtn {
+            position: absolute;
+            top: 0;
+            right: 25px;
+            font-size: 36px;
+            margin-left: 50px;
+        }
+
+        @media screen and (max-width: 450px) {
+            .sidenav {
+                padding: 15px 0;
+            }
+            .sidenav a {
+                font-size: 15px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="catalog_home.html">catalog home</a>
+            <a href="about_our_catalog.html">about our catalog</a>
+            <a href="greatest_needs.html">greatest needs</a>
+            <a href="life-saving_meals.html">life-saving meals</a>
+            <a href="life-giving_water.html">life-giving water</a>
+            <a href="bibles.html">bibles</a>
+            <a href="pack_a_lunch.html">pack a lunch</a>
+            <a href="shoes_for_the_poor.html">shoes for the poor</a>
+            <a href="milk.html">milk</a>
+            <a href="orphans.html">orphans</a>
+            <a href="baby_care_kits.html">baby care kits</a>
+            <a href="reading.html">reading</a>
+            <a href="empower_teachers.html">empower teachers</a>
+            <a href="microenterprise.html">microenterprise</a>
+            <a href="drought_relief.html">drought relief</a>
+            <a href="medical_supply_kits.html">medical supply kits</a>
+            <a href="source_codes_used.html">source codes used</a>
+        </div>
+
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+    </nav>
+
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
+
+</body>
+
+</html>

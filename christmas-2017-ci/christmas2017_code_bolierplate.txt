@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css">
+    <title>Page Title</title>
+</head>
+
+<body>
+    <!-- NAVIGATION -->
+
+    <nav>
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="catalog_home.html">catalog home</a>
+            <a href="about_our_catalog.html">about our catalog</a>
+            <a href="greatest_needs.html">greatest needs</a>
+            <a href="life-saving_meals.html">life-saving meals</a>
+            <a href="life-giving_water.html">life-giving water</a>
+            <a href="bibles.html">bibles</a>
+            <a href="pack_a_lunch.html">pack a lunch</a>
+            <a href="shoes_for_the_poor.html">shoes for the poor</a>
+            <a href="milk.html">milk</a>
+            <a href="orphans.html">orphans</a>
+            <a href="baby_care_kits.html">baby care kits</a>
+            <a href="reading.html">reading</a>
+            <a href="empower_teachers.html">empower teachers</a>
+            <a href="microenterprise.html">microenterprise</a>
+            <a href="medical_supply_kits.html">medical supply kits</a>
+            <a href="source_codes_used.html">source codes used</a>
+        </div>
+
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+    </nav>
+
+    <!-- MAIN BODY CODE -->
+    <section>
+        <div class="container_720">
+            
+        </div>
+    </section>
+    
+    <!--NAVIGATION SCRIPT-->
+    <script src="app.js"></script>
+</body>
+</html>
